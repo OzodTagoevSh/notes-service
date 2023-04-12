@@ -17,5 +17,4 @@ public class UserDto {
     @NotBlank(message = "Password should not be empty")
     @Size(max = 20, message = "Password should contain at max 20 characters")
     private String password;
-    private String role;
 }
